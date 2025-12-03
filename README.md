@@ -1,50 +1,116 @@
-# Welcome to your Expo app 👋
+# ☕ Coffee Shop App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A full stack mobile application built with **React Native (Expo)**, **Node.js**, and **MongoDB**.
+Users can view the full coffee menu, get a random “Surprise Me” item, and interact with a clean, professional UI.
 
-## Get started
+## 🎬 YouTube Demo
 
-1. Install dependencies
+Watch the full walkthrough of the Coffee Shop App:
 
-   ```bash
-   npm install
-   ```
+👉 **YouTube Video:** *https://youtube.com/shorts/AqCmowROEa8?si=miRTE_Lup_WusZg9*
 
-2. Start the app
 
-   ```bash
-   npx expo start
-   ```
+## 🚀 Tech Stack
 
-In the output, you'll find options to open the app in a
+### **Frontend**
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+* React Native (Expo)
+* TypeScript
+* Axios
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### **Backend**
 
-## Get a fresh project
+* Node.js (Express)
+* MongoDB (Mongoose + Atlas)
 
-When you're ready, run:
+## 📦 Backend Setup
 
-```bash
-npm run reset-project
+### 1️⃣ Install dependencies
+
+```sh
+cd backend
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 2️⃣ Add environment variables
 
-## Learn more
+Create file: `backend/.env`
 
-To learn more about developing your project with Expo, look at the following resources:
+```
+MONGO_URI=your_mongodb_atlas_connection_string
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### 3️⃣ Start backend locally
 
-## Join the community
+```sh
+node server.js
+```
 
-Join our community of developers creating universal apps.
+Backend runs at:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```
+http://localhost:3000
+```
+
+## 📱 Frontend (Expo) Setup
+
+### 1️⃣ Install dependencies
+
+```sh
+cd frontend
+npm install
+```
+
+### 2️⃣ Start development server
+
+```sh
+npm start
+```
+
+## 📡 API Endpoints
+
+### 🔸 GET `/menu`
+
+Returns complete coffee menu.
+
+**Response:**
+
+```json
+{
+  "success": true,
+  "data": [...]
+}
+```
+
+### 🔸 GET `/menu/random`
+
+Returns a random in-stock item.
+
+**Response:**
+
+```json
+{
+  "success": true,
+  "data": { ... }
+}
+```
+
+---
+
+## ✨ Features
+
+* Full menu fetched from MongoDB
+* Surprise Me → Random in-stock drink
+* Professional UI & dark coffee theme
+* Works on web, emulator, and physical phone
+
+## 🧑‍💻 Author
+
+**Sana Batool**
+Full Stack / Mobile Developer
+
+## ⭐ Support This Project
+
+If you like this project, please **star ⭐ the repo** it helps me grow!
+
+Just say: **Add banner**, **Add badges**, or **Add screenshots section**!
