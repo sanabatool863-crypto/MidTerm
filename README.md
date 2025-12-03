@@ -120,5 +120,3 @@ Full Stack / Mobile Developer
 ## ⭐ Support This Project
 
 If you like this project, please **star ⭐ the repo** it helps me grow!
-
-Just say: **Add banner**, **Add badges**, or **Add screenshots section**!
