@@ -10,6 +10,14 @@ Watch the full walkthrough of the Coffee Shop App:
 👉 **YouTube Video:** *https://youtube.com/shorts/AqCmowROEa8?si=miRTE_Lup_WusZg9*
 
 
+## 📱 Download APK
+
+You can install the Coffee Shop App on Android using the link below:
+
+👉 **Download APK:**  
+https://expo.dev/accounts/sana-crypto/projects/frontend/builds/f8b859df-2410-4896-9d29-123080ab7af7
+
+
 ## 🚀 Tech Stack
 
 ### **Frontend**
